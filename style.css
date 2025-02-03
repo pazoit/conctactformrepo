@@ -1,0 +1,126 @@
+
+body{
+    background-color: hsl(148, 38%, 91%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Inter;
+    font-family: Karla;
+    color: hsl(187, 24%, 22%);
+}
+
+.container{ 
+    background-color: hsl(0, 0%, 100%);
+    padding: 25px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+     width:35%;
+
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap:15px;
+}
+
+.namescontent {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+
+.input-container {
+display: flex;
+flex-direction: column;
+gap: 5px;
+width: 48%;
+
+}
+
+.input-text{
+padding: 15px;
+border-radius: 5px;
+border-color: hsl(186, 15%, 59%);
+border-width: 1px;
+border-style: solid;
+cursor: pointer;
+}
+
+.email{
+width: 100%;
+
+}
+
+.check{
+    display: flex; 
+    flex-direction: row;
+}
+
+.message{
+    width: 100%;
+}
+
+
+
+.query-content {
+    display: flex;
+    gap: 10px;
+    margin: 8px 0;
+    cursor: pointer;
+}
+
+.ckeck-contact {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.query-type{
+    border: 1px solid hsl(186, 15%, 59%);
+    width: 100%;
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: flex;
+    
+    
+}
+
+.submit {
+   
+   
+    font-weight:bold;
+    color: hsl(0, 0%, 100%);
+    background-color:  hsl(169, 82%, 27%);
+    border-radius: 5px;
+    padding: 15px;
+    cursor: pointer;
+   
+}
+
+
+
+.submit:hover{
+    background-color: hsl(169, 82%, 15%);
+}
+
+input[type=checkbox]{
+accent-color: hsl(169, 82%, 27%);
+width: 15px;
+}
+
+input[type="radio"]:checked {
+    accent-color: hsl(169, 82%, 27%);
+}
+
+
+input[type="text"]:hover {
+    border: 1px solid hsl(187, 24%, 22%);
+    outline: none;
+}
+    

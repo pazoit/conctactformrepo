@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact-form</title>
+    <link rel="stylesheet" href="./style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+
+        <h1>Contact Us</h1>
+    <form>
+        <div class="namescontent" >
+            <div class="input-container">
+                <label for="firstname" >First Name <span>*</span></label> 
+                <input type="text" class="input-text" id="firstname"> 
+            </div>
+        
+        <div class="input-container">
+            <label for="lastname">Last Name<span>*</span></label> 
+            <input type="text" class="input-text" id="lastname">
+        </div>
+            
+        </div>
+            <div class="input-container email">
+                <label for="Email">Email Address <span>*</span></label>
+                <input type="email" class="input-text" id="Email">
+            </div>
+           
+            
+            <label for="Query">Query Type <span>*</span></label> 
+            <div class="query-content">
+        
+                <div class="query-type">
+                    <input type="radio" name="query" id="query" >
+                    <label for="Query">General Equiry</label>
+                </div>
+                
+                <div class="query-type">
+                    <input type="radio"  name="query" id="query" >
+                    <label for="Query">Support Request</label> 
+                </div>
+        
+            </div>
+           
+            <div class="input-container message">
+                <label for="message">Message <span>*</span></label>
+                <textarea type="text" class="input-text" id="message"></textarea>
+            </div>
+        
+            <div class="input-container  ckeck-contact">
+                <input class="check" type="checkbox" id="tick">
+                 <p for="checkbox">I consent to being contacted by the team <span>*</span></p> 
+                
+            </div> 
+                <input type="submit" class="submit" value="Submit">
+    </form>
+</div>
+</body>
+</html>
